@@ -1,21 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flower Market</title>
 
-    <link rel="stylesheet" href="styles/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles/style.css" />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- google fonts -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    /> -->
+  </head>
+  <body>
     <header>
+      <nav class="navbar display-flex">
+        <div class="brand">
+          <img src="assets/logo.png " alt="" />
+        </div>
+        <!-- <div class="nav-menus"> -->
+          <ul class="nav-links display-flex">
+            <li class="nav-item">
+              <a id="nav-home" class="nav-link" href="">Home</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="">Shop</a></li>
+            <li class="nav-item"><a class="nav-link" href="">About us</a></li>
+            <div>
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span>Cart ($56)</span>
+            </div>
+          </ul>
+        <!-- </div> -->
+      </nav>
 
+      <div class="banner display-flex">
+        <div class="banner-content">
+            <h1 class="banner-title">always <span class="text-title">fresh <br>flowers</span></h1>
+            <p class="banner-description text-light">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+        </div>
+        <img src="assets/hero-flower.png" alt="">
+      </div>
     </header>
-    <main>
-
-    </main>
-    <footer>
-        
-    </footer>
-</body>
+    <main></main>
+    <footer></footer>
+  </body>
 </html>

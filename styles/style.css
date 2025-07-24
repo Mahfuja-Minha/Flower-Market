@@ -1,0 +1,97 @@
+
+/* font-> Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* font-> Noto */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Inter", sans-serif;
+    background-color: #F5F8FF;
+}
+
+/* display flex */
+.display-flex{
+    display: flex;
+}
+
+
+/* text-color */
+.text-light{
+    color: #00000050;
+}
+
+.text-title{
+    color:#E95A08;
+}
+
+/* navbar related styles */
+.nav-item{
+    list-style: none;
+}
+.nav-link{
+    text-decoration: none;
+    color: #8987A1;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.nav-links{
+    gap: 30px;
+    padding: 22px 0px;
+}
+#nav-home{
+    color:#252432;
+    font-weight: 700;
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1140px;
+    margin: 20px auto 100px auto;
+}
+
+/* banner related styles */
+
+.banner-content{
+    max-width: 570px;
+}
+.banner-title{
+    font-family: "Noto Serif", serif;
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 13px;
+}
+
+.banner-description{
+    font-size: 1.375rem;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.banner{
+    max-width: 1140px;
+    margin:150px auto 20px auto;
+    align-items: end;
+}
+
+/* responsive style */
+@media screen and (max-width:576px) {
+    .nav-item{
+        display: none;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-title{
+        margin-top: 25px;
+        font-size: 1.5rem;
+    }
+    .banner-description{
+        font-size:0.875rem;
+    }
+    .banner-content{
+        margin: 0px 20px;
+    }
+}
