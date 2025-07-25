@@ -1,0 +1,124 @@
+@media screen and (max-width: 576px) {
+  .nav-link,
+  .store-title br {
+    display: none;
+  }
+  .navbar {
+    margin: 10px 10px 20px 10px;
+  }
+  .banner {
+    flex-direction: column-reverse;
+    margin-top: 0px;
+  }
+  .banner-title,
+  .plants-title,
+  .store-title,
+  .deal-title {
+    font-size: 1.5rem;
+  }
+  .banner-description,
+  .plants-description,
+  .store-list,
+  .deal-description {
+    font-size: 0.875rem;
+  }
+  .banner-content {
+    margin: 20px 20px;
+  }
+  .our-plants-card {
+    margin-top: 40px;
+    margin-bottom: 0px;
+  }
+  .plants-description {
+    margin: 16px 78px 30px 78px;
+  }
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 90%;
+    margin: 0px auto;
+  }
+  .card-title,
+  .card-price,
+  .footer-list li,
+  .footer-des {
+    font-size: 1rem;
+  }
+  .card-title {
+    margin-bottom: 8px;
+  }
+  .card-items img {
+    width: 100%;
+  }
+  .btn {
+    padding: 20px 10px;
+  }
+  .trust-badge {
+    visibility: hidden;
+    margin: 0px;
+  }
+  .store-description ul,
+  .footer-list {
+    padding-left: 20px;
+  }
+  .store {
+    flex-direction: column;
+    width: 100%;
+  }
+  .store-image {
+    max-width: 100%;
+    margin: 0px 15px;
+    margin-bottom: 18px;
+  }
+
+  .store-list {
+    margin-bottom: 16px;
+  }
+  .store-description {
+    max-width: 100%;
+    margin: 0px 20px;
+    text-align: start;
+  }
+  .deal-description {
+    padding: 0px;
+    max-width: 336px;
+  }
+
+  .zabo-plant {
+    width: 361px;
+    height: 172px;
+  }
+  .deal-card {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: auto;
+    max-width: 361px;
+  }
+
+  .shop-now-zabo {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .title-zabo {
+    font-size: 1.25rem;
+  }
+  .join-form-section {
+    max-width: 100%;
+    gap: 18;
+  }
+  .input-field {
+    max-width: 321px;
+  }
+  .form-title {
+    font-size: 1.25rem;
+  }
+  .footer-list {
+    padding-left: 0px;
+  }
+  footer {
+    flex-direction: column;
+    padding-left: 20px;
+    gap: 20px;
+  }
+}
