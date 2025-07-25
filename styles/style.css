@@ -1,16 +1,15 @@
 /* font-> Inter */
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
+/* font-> Noto */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
   font-family: "Inter", sans-serif;
   background-color: #f5f8ff;
   margin: 0px;
   /* padding: 0px; */
 }
-
-/* font-> Noto */
-@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
-
 /* display flex */
 .display-flex {
   display: flex;
@@ -47,7 +46,7 @@
   justify-content: space-between;
   align-items: center;
   max-width: 1140px;
-  margin: 20px auto 100px auto;
+  margin: 20px auto 120px auto;
 }
 
 /* banner related styles */
@@ -80,7 +79,7 @@
 .our-plants-card {
   text-align: center;
   max-width: 1140px;
-  margin: 100px auto 0px;
+  margin: 120px auto;
 }
 .plants-description {
   max-width: 888px;
@@ -129,24 +128,226 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
 }
+
+/* store section */
+.store {
+  max-width: 1140px;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 2px solid red; */
+  margin: 0px auto;
+}
+.store-image {
+  max-width: 47.5%;
+  /* border: 2px solid red; */
+}
+.store-image img {
+  width: 100%;
+}
+.store-description {
+  max-width: 47.5%;
+  /* border: 2px solid red; */
+}
+.store-title {
+  font-size: 3.125rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.store-list {
+  font-size: 1.375rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.trust-badge {
+  width: 270px;
+  height: 270px;
+  text-align: center;
+  margin-left: 550px;
+  margin-bottom: -160px;
+  backface-visibility: hidden;
+  background: none;
+}
+.trust-badge img {
+  width: 100%;
+  background: none;
+}
+
+/* latest deals section */
+.deal-container {
+  max-width: 1140px;
+  margin: 0px auto;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.deal-description {
+  max-width: 888px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  padding-left: 240px;
+  padding-right: 240px;
+}
+.deal-title {
+  font-size: 3.125rem;
+  font-weight: 700;
+  margin-top: 100px;
+  margin-bottom: 16px;
+}
+.bloom-plant {
+  background-image: linear-gradient(rgb(0, 0, 0, 0.4)),
+    url("../assets/deal-bloom.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 367px;
+  height: 197px;
+  width: 100%;
+  border-radius: 14px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.ana-plant {
+  background-image: linear-gradient(#00000040), url("../assets/deal-ana.png");
+  max-width: 367px;
+  height: 197px;
+  width: 100%;
+  border-radius: 14px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.zabo-plant {
+  background-image: linear-gradient(#00000040), url("../assets/deal-zabo.png");
+  max-width: 753px;
+  height: 423px;
+  width: 100%;
+  border-radius: 22px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.bloom-ana {
+  flex-direction: column;
+  gap: 25px;
+  width: 100%;
+  max-width: 376px;
+}
+.deal-card {
+  display: flex;
+  gap: 28px;
+}
+.deal-flower-title {
+  background: none;
+  color: white;
+  font-weight: 700;
+  font-size: 1.125rem;
+}
+.title-zabo {
+  font-size: 2.5rem;
+}
+.shop-now {
+  background: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 26px 50px;
+}
+.shop-now-zabo {
+  font-size: 1.5rem;
+}
+
+/* joint section */
+.join-section {
+  max-width: 1440px;
+  background-image: linear-gradient(#07334f40),
+    url("../assets/news-letter-bg.png");
+  height: 533px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 23px;
+}
+.form-title {
+  font-family: "Noto Serif", serif;
+  background: none;
+  font-size: 3.125;
+  font-weight: 700;
+  color: white;
+}
+.input-field {
+  justify-content: center;
+  gap: 0px;
+}
+
+.email {
+  padding: 8px 20px;
+  border: none;
+  width: 644px;
+  height: 50px;
+  border: none;
+}
+
+footer{
+  max-width: 1120px;
+  justify-content: space-between;
+  margin: 0px auto;
+  padding: 50px 160px;
+}
+.footer-logo{
+  max-width: 359px;
+}
+.footer-des {
+  font-size: 1.375rem;
+  font-weight: 400;
+}
+.footer-list li{
+  list-style: none;
+  color: #6B7280;
+  font-weight: 400;
+  font-size: 1.375rem;
+ 
+}
+.footer-list
+{
+   flex-direction: column;
+   gap: 32px;
+}
+.footer-social-link{
+  gap: 24px;
+  max-width: 216px;
+  height: 36px;
+}
+  .footer-des{
+    margin-top: 16px;
+  }
+#twitter{
+width: 36px;
+height: 36ppx;
+}
 /* responsive style */
 @media screen and (max-width: 576px) {
-  .nav-link {
+  .nav-link,
+  .store-title br {
     display: none;
   }
   .navbar {
-    margin: 5px 7px 20px 6px;
+    margin: 10px 10px 20px 10px;
   }
   .banner {
     flex-direction: column-reverse;
     margin-top: 0px;
   }
   .banner-title,
-  .plants-title {
+  .plants-title,
+  .store-title,
+  .deal-title {
     font-size: 1.5rem;
   }
   .banner-description,
-  .plants-description {
+  .plants-description,
+  .store-list,
+  .deal-description {
     font-size: 0.875rem;
   }
   .banner-content {
@@ -154,10 +355,12 @@
   }
   .our-plants-card {
     margin-top: 40px;
+    margin-bottom: 0px;
   }
   .plants-description {
-   padding: 0px 78px;
-   margin: 16px auto 30px auto;
+    /* padding: 0px 78px; */
+    margin: 16px 78px 30px 78px;
+    /* margin: 0px 78px; */
   }
   .card-container {
     grid-template-columns: repeat(2, 1fr);
@@ -166,16 +369,89 @@
     margin: 0px auto;
   }
   .card-title,
-  .card-price {
+  .card-price,.footer-list li,.footer-des {
     font-size: 1rem;
   }
-  .card-title{
+  .card-title {
     margin-bottom: 8px;
   }
   .card-items img {
     width: 100%;
   }
-  .btn{
+  .btn {
     padding: 20px 10px;
   }
+  .trust-badge {
+    visibility: hidden;
+    margin: 0px;
+  }
+  .store-description ul,.footer-list {
+    padding-left: 20px;
+  }
+  .store {
+    flex-direction: column;
+    width: 100%;
+  }
+  .store-image {
+    max-width: 100%;
+    margin: 0px 15px;
+    margin-bottom: 18px;
+  }
+  .store-list {
+    margin-bottom: 16px;
+  }
+  .store-description {
+    max-width: 100%;
+    margin: 0px 20px;
+    text-align: start;
+  }
+  
+  /* .deal-container{
+    flex-direction: column;
+  } */
+  .deal-description {
+    padding: 0px;
+    max-width: 336px;
+  }
+
+  .zabo-plant {
+    width: 361px;
+    height: 172px;
+  }
+  .deal-card {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: auto;
+    max-width: 361px;
+  }
+
+  .shop-now-zabo {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .title-zabo {
+    font-size: 1.25rem;
+  }
+  .join-form-section {
+    max-width: 100%;
+    /* height: 275px; */
+    gap: 18px;
+  }
+  .input-field {
+    max-width: 321px;
+  }
+  .form-title {
+    font-weight: 1.25rem;
+  }
+  .footer-list {
+    padding-left: 0px;
+  }
+  footer{
+    flex-direction: column;
+    padding-left: 20px;
+    gap: 20px;
+  }
+ 
+  
 }
